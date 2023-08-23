@@ -91,9 +91,9 @@ class _AddPostScreenState extends State<AddPostScreen> {
                           onPressed: () {
                             AppBloc.get(context).pickPostImage();
                           },
-                          child: Row(
+                          child: const Row(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
+                            children: [
                               Icon(
                                 Icons.add,
                               ),
@@ -110,9 +110,9 @@ class _AddPostScreenState extends State<AddPostScreen> {
                             onPressed: () {
                               AppBloc.get(context).deletePostImage();
                             },
-                            child: Row(
+                            child: const Row(
                               mainAxisSize: MainAxisSize.min,
-                              children: const [
+                              children: [
                                 Icon(
                                   Icons.delete,
                                   color: Colors.red,

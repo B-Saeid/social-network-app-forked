@@ -159,11 +159,11 @@ class _PostsScreenState extends State<PostsScreen> {
                                   Text(
                                     '${AppBloc.get(context).postsList[index].values.single.likes.length} likes',
                                   ),
-                                  Spacer(),
+                                  const Spacer(),
                                   Text(
                                     '${AppBloc.get(context).postsList[index].values.single.comments.length} comments',
                                   ),
-                                  Text(
+                                  const Text(
                                     ' - ',
                                   ),
                                   Text(
